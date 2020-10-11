@@ -1,0 +1,11 @@
+set @rownum:=0;
+select  @rownum:=@rownum+1 as rank,b.name,
+	round(count(a.user_id)/(select count(user_id) from message )*100,1 ) as percentage 
+from message as a 
+right join user as  b  on a.user_id=b.id 
+group by a.user_id,b.name  
+order by percentage desc;
+
+
+
+

@@ -1,0 +1,7 @@
+select b.name, b.email, a.created_at
+from suspended as a INNER join user
+as b ON a.user_id = b.id where date
+(a.expired_at)< date(now());
+
+
+
