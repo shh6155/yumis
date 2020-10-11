@@ -1,0 +1,62 @@
+[
+    {
+        "number": "1-1",
+        "timetable": {
+            "weekday": [
+                {
+                    "name": "정류장 A",
+                    "arrive": "09:00"
+                },
+                {
+                    "name": "정류장 b",
+                    "arrive": "09:20"
+                },
+                {
+                    "name": "정류장 D",
+                    "arrive": "09:45"
+                },
+                {
+                    "name": "정류장 e",
+                    "arrive": "10:00"
+                },
+                {
+                    "name": "정류장 F",
+                    "arrive": "10:20"
+                },
+                {
+                    "name": "정류장 a",
+                    "arrive": "10:50"
+                }
+            ],
+            "weekend": []
+        }
+    },
+    {
+        "number": "50",
+        "timetable": {
+            "weekday": [
+                {
+                    "name": "정류장 a",
+                    "arrive": "09:10"
+                },
+                {
+                    "name": "정류장 B",
+                    "arrive": "09:35"
+                },
+                {
+                    "name": "정류장 E",
+                    "arrive": "09:50"
+                },
+                {
+                    "name": "정류장 f",
+                    "arrive": "10:20"
+                },
+                {
+                    "name": "정류장 G",
+                    "arrive": "10:30"
+                }
+            ],
+            "weekend": []
+        }
+    }
+]
